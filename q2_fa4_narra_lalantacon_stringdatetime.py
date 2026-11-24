@@ -7,6 +7,7 @@ Original file is located at
     https://colab.research.google.com/drive/1F3RKq8TpRDmVKxn5tiGXw2kap9XtC85i
 """
 
+# Acquires inputs to format.
 first_name = str(input("Enter your first name: "))
 last_name = str(input("Enter your last name: "))
 section = str(input("Enter your section: "))
@@ -14,6 +15,7 @@ favorite_subject = str(input("Enter your favorite subject: "))
 
 print("")
 
+# Prints the formatted output.
 print("Formatted Output:")
 print("Name:",first_name.title(), last_name.title())
 print("Name Code:",first_name.upper(), last_name.upper())
